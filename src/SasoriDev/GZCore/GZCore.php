@@ -1,5 +1,5 @@
 <?php
-
+// CORRECT NAMESPACE
 namespace SasoriDev\GZCore;
 
 use pocketmine\plugin\PluginBase;
@@ -8,7 +8,7 @@ use pocketmine\plugin\PluginManager;
 use pocketmine\utils\Config;
 use ReflectionClass;
 
-class GZCore extends PluginBase {
+class GZCore extends \pocketmine\plugin\PluginBase {
 
     private Config $config;
     private array $managedPlugins = [];
