@@ -1,0 +1,6 @@
+name: GZCore
+version: 1.0.0
+main: SasoriDev\GZCore\GZCore
+api: 5.0.0
+author: SasoriDev
+load: POSTWORLD
